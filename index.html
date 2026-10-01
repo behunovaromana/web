@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="sk" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mgr. Romana Behúňová | Public Procurement & Quality Assurance Specialist</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              800: '#0c4a6e',
+              900: '#082f49',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-sky-500 selection:text-white">
+
+  <!-- Navigácia -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 h-18 flex items-center justify-between">
+      <a href="#hero" class="text-xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+        <span class="w-8 h-8 rounded-lg bg-sky-600 text-white flex items-center justify-center font-extrabold text-sm">RB</span>
+        Mgr. Romana Behúňová
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-sky-600 transition-colors">O mne</a>
+        <a href="#competencies" class="hover:text-sky-600 transition-colors">Kompetencie</a>
+        <a href="#experience" class="hover:text-sky-600 transition-colors">Skúsenosti</a>
+        <a href="#education" class="hover:text-sky-600 transition-colors">Vzdelanie & Certifikácie</a>
+        <a href="#contact" class="px-4 py-2 rounded-full bg-slate-900 text-white hover:bg-sky-600 transition-colors">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Sekcia -->
+  <section id="hero" class="pt-32 pb-20 md:pt-40 md:pb-28 max-w-6xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-100 text-sky-800 text-xs font-semibold tracking-wide uppercase">
+          <i data-lucide="shield-check" class="w-4 h-4"></i>
+          12+ rokov skúseností v riadení procesov & obstarávaní
+        </div>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
+          Mgr. Romana Behúňová
+        </h1>
+        <p class="text-xl md:text-2xl text-sky-700 font-semibold">
+          Public Procurement & Quality Assurance Specialist
+        </p>
+        <p class="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl">
+          Špecialistka na verejné obstarávanie s právnym vzdelaním, expertízou v zmluvnej agende, riadení Integrovaných manažérskych systémov (IMS/ISO), auditoch a optimalizácii procesov v komplexných technologických a infraštruktúrnych projektoch.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-4">
+          <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-sky-600 text-white font-medium hover:bg-sky-700 shadow-sm transition-all shadow-sky-200">
+            <i data-lucide="mail" class="w-4 h-4"></i>
+            Kontaktujte ma
+          </a>
+          <a href="Životopis_Behúňová_Romana_svk.pdf" download class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white border border-slate-300 text-slate-700 font-medium hover:bg-slate-100 transition-all">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            Stiahnuť životopis (PDF)
+          </a>
+        </div>
+      </div>
+      <div class="lg:col-span-5 flex justify-center">
+        <div class="relative group">
+          <div class="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-sky-600 to-indigo-500 opacity-20 blur-xl group-hover:opacity-30 transition-all"></div>
+          <div class="relative w-72 h-88 sm:w-80 sm:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100">
+            <!-- Vloženie tvojej profilovej fotky zo životopisu -->
+            <img src="foto.jpg" alt="Mgr. Romana Behúňová" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80'" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O mne & Zručnosti -->
+  <section id="about" class="py-20 bg-white border-y border-slate-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="max-w-3xl mb-12">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-600 mb-2">Profil</h2>
+        <h3 class="text-3xl font-bold text-slate-900 tracking-tight">Precízny právny pohľad a systémový manažment</h3>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold">
+            <i data-lucide="scale" class="w-5 h-5"></i>
+          </div>
+          <h4 class="text-lg font-semibold text-slate-900">Právny základ & Zmluvy</h4>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Magisterské vzdelanie v práve zabezpečuje vysokú presnosť pri kontrole zmluvnej dokumentácie, zmenových konaniach a legislatívnom súlade.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold">
+            <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+          </div>
+          <h4 class="text-lg font-semibold text-slate-900">Verejné obstarávanie</h4>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Komplexná kompletizácia a audit súťažných podkladov pre nadlimitné verejné zákazky na národnej aj medzinárodnej úrovni.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold">
+            <i data-lucide="layers" class="w-5 h-5"></i>
+          </div>
+          <h4 class="text-lg font-semibold text-slate-900">IMS & Interné audity</h4>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Certifikovaná audítorka integrovaných manažérskych systémov s praxou v riadení súladu s normami kvality, IT bezpečnosti a anti-korupcie.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kľúčové kompetencie & Štandardy -->
+  <section id="competencies" class="py-20 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-600 mb-2">Expertíza</h2>
+        <h3 class="text-3xl font-bold text-slate-900">Oblasť expertízy a certifikované štandardy</h3>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80">
+          <h4 class="font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <i data-lucide="award" class="w-4 h-4 text-sky-600"></i> ISO Normy & IMS
+          </h4>
+          <ul class="text-sm text-slate-600 space-y-1.5">
+            <li>• ISO 9001 (Kvalita)</li>
+            <li>• ISO 14001 (Environment)</li>
+            <li>• ISO 45001 (BOZP)</li>
+            <li>• ISO 27001 (Bezpečnosť info)</li>
+            <li>• ISO 22301 (Business continuity)</li>
+            <li>• ISO 37001 (Anti-bribery)</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80">
+          <h4 class="font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <i data-lucide="briefcase" class="w-4 h-4 text-sky-600"></i> Verejné obstarávanie
+          </h4>
+          <ul class="text-sm text-slate-600 space-y-1.5">
+            <li>• Príprava & kontrola ponúk</li>
+            <li>• Posudzovanie súťažných podkladov</li>
+            <li>• Príprava dodatkov a protokolov</li>
+            <li>• Zmluvná agenda a archivácia</li>
+            <li>• Koordinácia projektových tímov</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80">
+          <h4 class="font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <i data-lucide="folder-git-2" class="w-4 h-4 text-sky-600"></i> Registratúra & Súlad
+          </h4>
+          <ul class="text-sm text-slate-600 space-y-1.5">
+            <li>• Správa registratúrneho strediska</li>
+            <li>• Dátové schránky & Transformácia</li>
+            <li>• Vyraďovacie konania & Štátny archív</li>
+            <li>• Tvorba interných smerníc a poriadkov</li>
+            <li>• Riadená distribúcia predpisov</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80">
+          <h4 class="font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <i data-lucide="cpu" class="w-4 h-4 text-sky-600"></i> Nástroje & Jazyky
+          </h4>
+          <ul class="text-sm text-slate-600 space-y-1.5">
+            <li>• MS Office (Word, Excel, Outlook)</li>
+            <li>• SharePoint & Správa schránok</li>
+            <li>• Anglický jazyk (B2)</li>
+            <li>• Český jazyk (B1)</li>
+            <li>• Slovenský jazyk (Materinský)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kariérne skúsenosti -->
+  <section id="experience" class="py-20 bg-white border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="mb-12">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-600 mb-2">Prax</h2>
+        <h3 class="text-3xl font-bold text-slate-900">Profesijná trajektória</h3>
+      </div>
+      <div class="space-y-12 relative before:absolute before:inset-0 before:left-3.5 before:w-0.5 before:bg-slate-200">
+        
+        <!-- SkyToll 2025-2026 -->
+        <div class="relative pl-10">
+          <div class="absolute left-1.5 top-1.5 w-4 h-4 rounded-full border-2 border-sky-600 bg-white"></div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-sky-600">Január 2025 – Júl 2026</span>
+          <h4 class="text-xl font-bold text-slate-900 mt-1">Public Procurement and Quality Assurance Specialist</h4>
+          <p class="text-sm text-slate-500 font-medium mb-3">SkyToll, a. s., Bratislava</p>
+          <p class="text-sm text-slate-600 mb-3">
+            Zodpovednosť za prípravu a kontrolu dokumentácie do verejných súťaží, správu registratúrneho strediska, dátových schránok a udržiavanie noriem IMS (ISO 9001, 14001, 45001, 27001, 22301, 37001) vrátane interných auditov.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Elektronický mýtny systém (NDS)</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Technická podpora NDS</span>
+          </div>
+        </div>
+
+        <!-- SkyToll 2017-2025 -->
+        <div class="relative pl-10">
+          <div class="absolute left-1.5 top-1.5 w-4 h-4 rounded-full border-2 border-slate-400 bg-white"></div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Júl 2017 – Január 2025</span>
+          <h4 class="text-xl font-bold text-slate-900 mt-1">Quality Assurance Coordinator</h4>
+          <p class="text-sm text-slate-500 font-medium mb-3">SkyToll, a. s., Bratislava</p>
+          <p class="text-sm text-slate-600 mb-3">
+            Koordinácia verejného obstarávania, tvorba vnútorných smerníc, participácia na zmenových konaniach a realizácia recertifikačných auditov IMS. Spolupráca na významných medzinárodných mýtnych tendroch.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Diaľničná známka Slovinsko (DARS)</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Elektronické mýto ČR (ŘSD ČR)</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">Diaľničné známky SR (NDS)</span>
+          </div>
+        </div>
+
+        <!-- SkyToll 2014-2017 -->
+        <div class="relative pl-10">
+          <div class="absolute left-1.5 top-1.5 w-4 h-4 rounded-full border-2 border-slate-300 bg-white"></div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Máj 2014 – Júl 2017</span>
+          <h4 class="text-xl font-bold text-slate-900 mt-1">Quality Assurance Referent</h4>
+          <p class="text-sm text-slate-500 font-medium mb-3">SkyToll, a. s., Bratislava</p>
+          <p class="text-sm text-slate-600 mb-3">
+            Administrácia podkladov pre verejné zákazky, riadenie obehu dokumentácie a výkon interných auditov kvality a environmentalizmu.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">SPP-distribúcia, a.s.</span>
+            <span class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 text-xs font-medium">NDS, a.s.</span>
+          </div>
+        </div>
+
+        <!-- RCTT 2011-2013 -->
+        <div class="relative pl-10">
+          <div class="absolute left-1.5 top-1.5 w-4 h-4 rounded-full border-2 border-slate-300 bg-white"></div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Júl 2011 – December 2013</span>
+          <h4 class="text-xl font-bold text-slate-900 mt-1">Asistentka konateľa a predstaviteľ vedenia pre kvalitu a environment</h4>
+          <p class="text-sm text-slate-500 font-medium mb-3">RCTT, s.r.o., Bratislava</p>
+          <p class="text-sm text-slate-600">
+            Právna a zmluvná verifikácia dokumentov, styk s verejnými inštitúciami, priemyselná bezpečnosť a zavedenie manažérstva kvality podľa ISO 9001 a ISO 14001.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Vzdelanie & Certifikácie -->
+  <section id="education" class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+            <i data-lucide="graduation-cap" class="w-6 h-6 text-sky-600"></i> Vzdelanie
+          </h3>
+          <div class="space-y-6">
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-semibold text-sky-600 uppercase">2006 – 2011</span>
+              <h4 class="text-lg font-bold text-slate-900 mt-1">Magisterské štúdium práva (Mgr.)</h4>
+              <p class="text-sm text-slate-600">Univerzita Mateja Bela v Banskej Bystrici, Právnická fakulta</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase">2001 – 2005</span>
+              <h4 class="text-lg font-bold text-slate-900 mt-1">Všeobecné vzdelanie</h4>
+              <p class="text-sm text-slate-600">Gymnázium sv. Andreja, Ružomberok</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+            <i data-lucide="file-check" class="w-6 h-6 text-sky-600"></i> Certifikácie & Kurzy
+          </h3>
+          <div class="space-y-4">
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-bold text-sky-700 uppercase">August 2026</span>
+              <h5 class="font-bold text-slate-900 text-sm">Google AI Professional Certificate</h5>
+              <p class="text-xs text-slate-500">Google</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-bold text-slate-600 uppercase">Máj 2026</span>
+              <h5 class="font-bold text-slate-900 text-sm">Interný audítor ISO 37001:2025 (Anti-bribery)</h5>
+              <p class="text-xs text-slate-500">CERTICOM s.r.o.</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-bold text-slate-600 uppercase">Máj 2026</span>
+              <h5 class="font-bold text-slate-900 text-sm">Interný audítor IMS (ISO 9001, ISO 14001, ISO 45001)</h5>
+              <p class="text-xs text-slate-500">CERTICOM s.r.o.</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-bold text-slate-600 uppercase">Marec 2026</span>
+              <h5 class="font-bold text-slate-900 text-sm">Project Management Fundamentals</h5>
+              <p class="text-xs text-slate-500">Next level consulting</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <span class="text-xs font-bold text-slate-600 uppercase">Október 2025</span>
+              <h5 class="font-bold text-slate-900 text-sm">Správa transformovaných dokumentov a novela zákona o archívoch</h5>
+              <p class="text-xs text-slate-500">EDOS-PEM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="contact" class="py-20 bg-slate-900 text-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Spojme sa</h2>
+      <h3 class="text-3xl font-extrabold tracking-tight mb-8">Máte záujem o spoluprácu?</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <a href="mailto:behunova.romana@gmail.com" class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-sky-500 transition-all block">
+          <i data-lucide="mail" class="w-6 h-6 text-sky-400 mx-auto mb-3"></i>
+          <span class="text-xs uppercase text-slate-400 font-semibold block mb-1">E-mail</span>
+          <span class="text-sm font-medium text-slate-100">behunova.romana@gmail.com</span>
+        </a>
+        <a href="tel:+421911372129" class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-sky-500 transition-all block">
+          <i data-lucide="phone" class="w-6 h-6 text-sky-400 mx-auto mb-3"></i>
+          <span class="text-xs uppercase text-slate-400 font-semibold block mb-1">Telefón</span>
+          <span class="text-sm font-medium text-slate-100">+421 911 372 129</span>
+        </a>
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 block">
+          <i data-lucide="map-pin" class="w-6 h-6 text-sky-400 mx-auto mb-3"></i>
+          <span class="text-xs uppercase text-slate-400 font-semibold block mb-1">Lokalita</span>
+          <span class="text-sm font-medium text-slate-100">Bratislava, Slovensko</span>
+        </div>
+      </div>
+      <p class="text-slate-500 text-xs">
+        © 2026 Mgr. Romana Behúňová. Všetky práva vyhradené.
+      </p>
+    </div>
+  </section>
+
+  <!-- Inicializácia Lucide ikon -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
